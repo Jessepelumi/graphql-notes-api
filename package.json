@@ -1,0 +1,31 @@
+{
+  "name": "graphql-notes-api",
+  "version": "1.0.0",
+  "description": "Learning the basics of GraphQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jessepelumi/graphql-notes-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Jessepelumi/graphql-notes-api/issues"
+  },
+  "homepage": "https://github.com/Jessepelumi/graphql-notes-api#readme",
+  "dependencies": {
+    "@apollo/server": "^5.2.0",
+    "graphql": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
