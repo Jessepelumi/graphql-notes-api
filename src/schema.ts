@@ -1,4 +1,4 @@
-// This file defines the types of data to be used.
+// This file defines the types of data we have in the graph. 
 
 export const typeDefs = `#graphql
 type Tag {
@@ -16,5 +16,7 @@ type Note {
 type Query {
     tags: [Tag]
     notes: [Note]
+    tag(id: ID!): Tag
+    note(id: ID!): Note
 }
 `;
